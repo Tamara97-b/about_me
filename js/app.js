@@ -1,3 +1,4 @@
+'use strict'
 let name = prompt("is my name farah?")
 if(name.toLowerCase()=="no")
 {
