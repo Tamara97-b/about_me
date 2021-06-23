@@ -6,3 +6,6 @@ I modified the html file by making a numbered list containing some of my movieI 
 then 
 
 I  modified the javascript file by adding a new pop box, one of which makes you guess the month of my fav number and the other of which lets you guess some of my fav country while showing your total score
+
+
+hello iam tamara i am the navigator and marwan rawashdeh is the driver

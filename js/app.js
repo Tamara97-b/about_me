@@ -6,7 +6,7 @@ let userName = prompt('what\'s your name');
 alert('Welcome to my webpage ' + userName);
 console.log(userName);
 
-
+function q1(){
 let name = prompt("is my name farah?")
 if(name.toLowerCase()=="no"|| name.toLowerCase()=='n')
 {
@@ -18,8 +18,10 @@ if(name.toLowerCase()=="no"|| name.toLowerCase()=='n')
 else 
 {alert('no i am tamara')
 console.log("no i am  tamara" +name);
-}
-let age = prompt("is my age under 25?")
+}}
+q1()
+function q2(){
+    let age = prompt("is my age under 25?")
 if (age.toLowerCase() =="yes"|| age.toLowerCase()=='y' 
 ){alert("right i am 24")
 score++;
@@ -27,15 +29,19 @@ console.log("right i am 24"+age);
 
 }else{alert("no i am 24")
 console.log("no i am 24" +age);
-}
-let natioality = prompt("is i am jordanian?")
+}}
+q2()
+function q3(){
+    let natioality = prompt("is i am jordanian?")
 if( natioality.toLowerCase()=='yes'||natioality.toLowerCase()=="y")
 {alert('pravo')
 score++;
 console.log("pravo" +natioality);}
 else {
     alert('no i am jordanian')
-    console.log("no i am jordanian" + natioality);}
+    console.log("no i am jordanian" + natioality);}}
+   q3()
+   function q4( ){
 let major = prompt('is i am engineer?')
 if (major.toLowerCase() == 'yes'||major.toLowerCase() =='y')
 {alert('no i am nutritionist')
@@ -43,7 +49,9 @@ console.log("no i am nutritionist"+major);}
 else{alert('good job')
 score++;
 console.log("good job"+major);}
-
+}
+q4()
+function q5( ){
 let dish = prompt('is the mansaf my fav dish?')
 switch(dish.toLowerCase() )
 {case 'yes'||"y":alert ('right' )
@@ -53,10 +61,10 @@ console.log("right"+dish);
 default:
      alert('no the mansaf is my fav')
      console.log("no the mansaf is my fav"+dish);;}
-     document.write("welcome to my page");
+     document.write("welcome to my page");}
      
-     
-    
+     q5()
+     function q6(  ){
      let num;
      let v ;
      for(  num=0 ; num < 4 ;num++ )
@@ -89,8 +97,9 @@ default:
 
 
 
-    }
-
+    }}
+q6()
+function q7(){
     let t = ['jordan','usa','qatar','oman']
     let i ;
     let k;
@@ -119,4 +128,5 @@ if (i== 6 && k!=true){
     console.log('you failed my best countries are  '+t);
 }
 alert('your score'+ score)
-console.log('your score '+ score);
+console.log('your score '+ score);}
+q7()
