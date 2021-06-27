@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-=======
+
+
 'use strict'
 let score =0 ;
 
@@ -132,4 +132,4 @@ if (i== 6 && k!=true){
 alert('your score'+ score)
 console.log('your score '+ score);}
 q7()
->>>>>>> ab5661c23b9cd48cf08746bec8395649eb9757f9
+
